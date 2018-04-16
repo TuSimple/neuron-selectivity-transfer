@@ -1,0 +1,3 @@
+[submodule "incubator-mxnet-bk"]
+	path = incubator-mxnet-bk
+	url = https://github.com/huangzehao/incubator-mxnet-bk

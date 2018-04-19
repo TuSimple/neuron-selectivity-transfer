@@ -24,6 +24,11 @@ This code is implemented by a modified [MXNet](https://github.com/huangzehao/inc
 ## ImageNet data preparation
 Download the [ImageNet](http://image-net.org/download-images) dataset and create pass through rec (following [tornadomeet's repository](https://github.com/tornadomeet/ResNet#imagenet) but using unchange mode)
 
+## Run
+- ```bash init.sh```
+- modify ```config/cfgs.py```
+- ```python train.py```
+
 ## Results on ImageNet-1k
 **Single Model, Single Crop Validation Error:**
 

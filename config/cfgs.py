@@ -10,7 +10,7 @@ model_load_epoch = 0
 retrain = False
 
 # data
-data_dir = '/mnt/truenas/scratch/algorithm/datasets/imagenet/imagenet_data_new/'
+data_dir = 'imagenet'
 batch_size = 64
 batch_size *= len(gpu_list)
 kv_store = 'device'

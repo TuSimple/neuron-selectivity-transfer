@@ -39,7 +39,6 @@ Download the [ImageNet](http://image-net.org/download-images) dataset and create
 | NST (Poly kernel) + KD    | Inception-BN | 24.34      | 7.11 | [Dropbox](https://www.dropbox.com/sh/ekqs25qyp9sjcg3/AABTtywMobR8WSIjuf_OyXs-a?dl=0) |
 | NST (Poly kernel) + KD | A modified ResNet-50 | 21.05 | 5.56 | [Dropbox](https://www.dropbox.com/sh/jhnokzbvv8s17ng/AABGgKvzZCgl_U1dU14cmQmka?dl=0) 
 > Note:
-> The symbol of our modified ResNet-50 is available in [Dropbox](https://www.dropbox.com/sh/jhnokzbvv8s17ng/AABGgKvzZCgl_U1dU14cmQmka?dl=0).
+> The symbol of our modified ResNet-50 (following [SENet](https://arxiv.org/pdf/1709.01507.pdf) Appendix B) is available in [Dropbox](https://www.dropbox.com/sh/jhnokzbvv8s17ng/AABGgKvzZCgl_U1dU14cmQmka?dl=0).
 > The mean RGB for our modified ResNet-50 is [123.68, 116.28, 103.53], std is [58.395, 57.12, 57.375]. 
-
 > For Inception-BN, we don't need to do data pre-processing since we add a BN layer in the beginning of the network. 

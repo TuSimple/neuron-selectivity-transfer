@@ -30,7 +30,7 @@ num_classes = 1000
 
 # knowledge transfer
 kt = True
-kt_type = 'mmd'
+kt_type = 'mmd' # 'kd' or 'kd+mmd'
 teacher_prefix = 'teacher_model/resnet-101'
 teacher_epoch = 0
 teacher_symbol = 'fc1_output' if kt_type == 'kd' else 'bn1_output'
